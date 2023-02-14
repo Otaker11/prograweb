@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@400;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#linea_azul{
+    background-color: #063F66;
+}
+#ejemplo{
+    background-color: #063F66;
+}
+.container-search{
+  width: 30px;
+  height: 100%;
+  display: flex;
+  margin-left: 1rem;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.container-search i{
+    color: white;
+}
+
+.container-search:hover{
+    background-color: #0EC1B0;
+    cursor: pointer;
+}
+.blanco{
+    color: white;
+
+}
+#Titulo{
+    font-size: 4rem;
+}
+
+.azul{
+    background-color: #063F66;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#imagen_banner{
+    background-size: cover;
+    background-image: url("https://media.ohla-group.com/wp-content/uploads/2022/12/14160237/banner-etica.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.image-certificado{
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.image-carrusel1{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 320px;
+    width: 360px;
+}
+
+.image-ul{
+   list-style-type: none; 
+}
+.titulos_main{
+    color:#063F66;
+}
+.text_main{
+    color: #33DB9E;
+    text-align: justify;
+}
+.title_banner{
+    display:flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 5rem;
+}
+hr{
+    color: #3A9696;
+    width: 100px;
+}
+.section-contacto{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    width: 100%;
+    gap: 100px;
+}
+
+.form-contacto{
+ width: 100%;
+ padding: 0;
+}
+
+.row-contact{
+    width: 100%;
+}
+
+.container-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.container-center-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;  
+}
+.container-center-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;  
+}
+
+.container-left{
+    display: flex;
+    justify-content: left;
+    align-items: left; 
+    text-align: justify; 
+}
+.container-right{
+    display: flex;
+    justify-content: right;
+    align-items: right; 
+    text-align: justify; 
+}
+
+.card-text{
+    align-items: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: justify;
+}
+.btn{
+    color:white;
+}
+
+.logo-footer{
+    width: auto;
+}
+ .nav-theme{
+    background-color: white;
+    color: gray;
+ }
