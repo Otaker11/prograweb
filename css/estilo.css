@@ -3,12 +3,13 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
 }
-#linea_azul{
-    background-color: #063F66;
+#linea_naranja{
+    background-color: orange;
 }
 #ejemplo{
-    background-color: #063F66;
+    background-color: black;
 }
 .container-search{
   width: 30px;
@@ -25,19 +26,25 @@ body{
 }
 
 .container-search:hover{
-    background-color: #0EC1B0;
+    background-color: white;
     cursor: pointer;
 }
 .blanco{
     color: white;
 
 }
+.negro-title{
+    color: black;
+}
 #Titulo{
     font-size: 4rem;
 }
-
-.azul{
-    background-color: #063F66;
+.naranja_title{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.naranja{
+    background-color: orange;
     color: white;
     font-family: 'Roboto', sans-serif;
 
@@ -45,14 +52,14 @@ body{
 
 #imagen_banner{
     background-size: cover;
-    background-image: url("https://media.ohla-group.com/wp-content/uploads/2022/12/14160237/banner-etica.jpg");
-    background-color: #cccccc;
+    background-image: url("https://static.wixstatic.com/media/ae1b49_03100ec9d2c1487781dd7055d7fe3d08~mv2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80/file.jpg");
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
 }
 .image-certificado{
-    background-color: #cccccc;
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     height: 200px;
@@ -68,10 +75,10 @@ body{
    list-style-type: none; 
 }
 .titulos_main{
-    color:#063F66;
+    color:orange;
 }
 .text_main{
-    color: #33DB9E;
+    color: white;
     text-align: justify;
 }
 .title_banner{
@@ -81,7 +88,7 @@ body{
     padding-left: 5rem;
 }
 hr{
-    color: #3A9696;
+    color: orange;
     width: 100px;
 }
 .section-contacto{
@@ -145,6 +152,5 @@ hr{
     width: auto;
 }
  .nav-theme{
-    background-color: white;
-    color: gray;
+    color: white;
  }
