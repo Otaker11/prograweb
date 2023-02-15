@@ -18,188 +18,152 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <header>
-        <div class="row" id="linea_naranja">
-          <div class="col-2 blanco container-center-left"> <img
+    <header>
+      <div class="container-fluid">
+        <div class="row naranja" id="linea_naranja">
+          <div class="col-2 container-center-left">
+            <img
+              src="/images/logo_constructora.png"
+              class="img-fluid"
+              alt="logo"
+            />
+          </div>
+          <div class="col-10 container-right" id="navegacion_superior">
+            <nav
+              class="navbar navbar-expand-lg navbar-brand navbar-toggler navbar-dark"
+            >
+              <a class="navbar-brand nav-theme" href="index.html">Inicio</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="actividad.html"
+                      >Actividad</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="inovacion.html">Inovación</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="certificaciones.html"
+                      >Certificaciones</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Sostenibilidad
+                    </a>
+                    <ul class="dropdown-menu naranja">
+                      <li>
+                        <a class="dropdown-item blanco" href="quienes.html"
+                          >Lo hacemos posible</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item blanco" href="preguntas.html"
+                          >Nuestra estrategia</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item blanco" href="personas.html"
+                          >Personas</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div id="imagen_banner">
+        <div class="title_banner">
+          <h1 id="Titulo-index" class="blanco">
+            Bienvenidos, nosotros somos G2
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <div class="col-6">
+          <img
             src="/images/logo_constructora.png"
             class="img-fluid"
             alt="logo"
-          /></div>
-          <div class="col-10 container-right " id="navegacion_superior">
-            <nav class="navbar navbar-expand-lg navbar-brand navbar-toggler">
-                <a class="navbar-brand" href="index.html">Inicio</a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="collapse navbar-collapse"
-                  id="navbarSupportedContent2"
-                >
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        aria-current="page"
-                        href="actividad.html"
-                        >Actividad</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="inovacion.html"
-                        >Inovación</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="certificaciones.html"
-                        >Etica e Integridad</a
-                      >
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Sostenibilidad
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <a class="dropdown-item" href="quienes.html"
-                            >Lo hacemos posible</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="preguntas.html"
-                            >Nuestra estrategia</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="personas.html">Personas</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-              </div>
-                </div>
-              </div>
-      </header>
+          />
+        </div>
+        <p class="footer-links">
+          <a href="index.html" class="link-1">Inicio</a>
 
-        <div class="container-fluid">
-        <div class="row">
-          <div class="col-2">
-            
-          </div>
-              
+          <a href="#">Blog</a>
+
+          <a href="#">Pricing</a>
+
+          <a href="#">About</a>
+
+          <a href="#">Faq</a>
+
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">G2 © 2023</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
         </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+52.412.100.14.36</p>
         </div>
-       
-<br>
-        <div class="row" id="banner">
-          <div class="col">
-            <div id="imagen_banner">
-              <div class="title_banner">
-                <h1 id="Titulo" class="naranja_title">Bienvenidos, nosotros somos G2</h1>
-              </div>
-            </div>
-          </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">support@company.com</a></p>
         </div>
-      </header>
-      <br>
-      <footer>
-        <div class="row naranja container-center" id="pie">
-          <div class="col-2">
-            <img src="/images/logo_constructora.png" class="img-fluid" alt="logo" />
-          </div>
-          <div class="col-1 ">
-          </div>
-          <div class="col-1">
-            <p class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="contacto.html"
-                >Contacto</a
-              >
-            </p>
-          </div>
-          <div class="col-1">
-            <p class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="Accesibilidad.html"
-                >Accesibilidad</a
-              >
-            </p>
-          </div>
-          <div class="col-1">
-            <p class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="poli_privacidad.html"
-                >Politica de privacidad</a
-              >
-            </p>
-          </div>
-          <div class="col-1">
-            <p class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="poli_cookies.html"
-                >Politica de cookies</a
-              >
-            </p>
-          </div>
-          <div class="col-1">
-            <p class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="aviso_legal.html"
-                >Aviso legal</a
-              >
-            </p>
-          </div>
-          <div class="col-1"></div>
-          <div class="col-1 nav-item">
-           <a
-           class="nav-link active"
-           aria-current="page"
-           href="https://mx.linkedin.com/">
-           <img
-           src="https://static.vecteezy.com/system/resources/previews/017/339/624/non_2x/linkedin-icon-free-png.png"
-           class="img-fluid logo-footer"
-           alt="logo"
-         />
-           </a>
-          </div>
-          <div class="col-2 nav-item">
-            <a
-            class="nav-link active"
-            aria-current="page"
-            href="https://www.youtube.com/">
-            <img 
-            src="/images/yutu.png" 
-            class="img-fluid logo-footer" alt="logo" />
-            </a>
-          </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>Descripcion breve</span>
+          En este empresa constructora, nos comprometemos a brindar proyectos de
+          Calidad para el bienestar y seguridad de la sociedad.
+        </p>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
