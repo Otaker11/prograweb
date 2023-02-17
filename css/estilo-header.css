@@ -1,0 +1,136 @@
+
+.p_tricks, .h2_tricks{
+    position: relative;
+    z-index: 1;
+    margin: 20px 15%;
+    color: black;
+}
+.div_tricks{
+    position: relative;
+    z-index: 1;
+}
+.main_section {
+    padding: 40px 0;
+}
+
+.image_index{
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://www.teahub.io/photos/full/96-960068_minimalist-architecture-wallpaper-black.jpg");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+.image_proyectos{
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://fondosmil.com/fondo/46382.jpg");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+.image_clientes{
+    height: 480px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://nattivos.com/wp-content/uploads/2018/01/constru1.jpg");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+.image_servicios{
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    background-image: url("https://clinmoo.com/wp-content/uploads/2018/09/transformacion-digital-inmobiliaria-e1549293833372.jpeg");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+.image_salud{
+    height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://images.alphacoders.com/115/115611.jpg");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+.image_salud{
+    height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://images.alphacoders.com/115/115611.jpg");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+.image_etica{
+    height: 330px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://www.ofiprix.com/blog/wp-content/uploads/2022/01/mejores-edificios-oficinas-mundo.webp");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+.image_politicas{
+    height: 430px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://a-static.besthdwallpaper.com/city-buildings-background-wallpaper-2400x1350-12537_50.jpg");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+.image_quienes{
+    height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=3316&resolucion=3840x2400");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+.image_contacto{
+    height: 430px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://www.todofondos.net/wp-content/uploads/4k-new-york-wallpaper.jpg");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+
+.text{
+    position: relative;
+}
+
+.text::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    rotate: -2deg;
+    translate: -50% -50%;
+    width: 150%;
+    height: 125%;
+    background: white;
+}

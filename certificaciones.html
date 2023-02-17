@@ -15,6 +15,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+    <link href="css/estilo-header.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
@@ -49,17 +50,18 @@
                     <a
                       class="nav-link active"
                       aria-current="page"
-                      href="actividad.html"
-                      >Actividad</a
+                      href="proyectos.html"
+                      >Proyectos</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="inovacion.html">Inovación</a>
+                    <a class="nav-link" href="servicios.html">Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="certificaciones.html"
-                      >Certificaciones</a
-                    >
+                    <a class="nav-link" href="clientes.html">Clientes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="salud.html">Seguridad y salud</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a
@@ -69,22 +71,47 @@
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      Sostenibilidad
+                      Ética e integridad
                     </a>
                     <ul class="dropdown-menu naranja">
                       <li>
-                        <a class="dropdown-item blanco" href="quienes.html"
-                          >Lo hacemos posible</a
+                        <a class="dropdown-item blanco-nav" href="etica.html"
+                          >Canal ético</a
                         >
                       </li>
                       <li>
-                        <a class="dropdown-item blanco" href="preguntas.html"
-                          >Nuestra estrategia</a
+                        <a class="dropdown-item blanco-nav" href="politicas.html"
+                          >Politicas</a
                         >
                       </li>
                       <li>
-                        <a class="dropdown-item blanco" href="personas.html"
-                          >Personas</a
+                        <a
+                          class="dropdown-item blanco-nav"
+                          href="certificaciones.html"
+                          >Certificaciones</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Nosotros G2
+                    </a>
+                    <ul class="dropdown-menu naranja">
+                      <li>
+                        <a class="dropdown-item blanco-nav" href="quienes.html"
+                          >¿Quienes somos?</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item blanco-nav" href="contacto.html"
+                          >Contacto</a
                         >
                       </li>
                     </ul>
@@ -96,7 +123,7 @@
         </div>
       </div>
 
-      <div id="imagen_banner">
+      <div id="imagen_banner_certi">
         <div class="title_banner">
           <h1 id="Titulo-certificacion" class="blanco">Certificaciones</h1>
         </div>
@@ -114,12 +141,16 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title container-center">Politicas</h5>
-                <p class="card-text">
+                <h5 class="card-title container-center titulos_main">
+                  Politicas
+                </h5>
+                <p class="card-text text-main">
                   Para nosotros es muy importante que analizen a detalle
                   nuestras politicas
                 </p>
-                <a href="politicas.html" class="btn btn-dark container-center"
+                <a
+                  href="politicas.html"
+                  class="btn btn-dark container-center naranja"
                   >Ver politicas</a
                 >
               </div>
@@ -127,7 +158,7 @@
           </div>
 
           <div class="col-4 container-center">
-            <div class="certificacion titulos_main">
+            <div class="certificacion">
               <hr />
               <h1>Certificaciones</h1>
 
@@ -182,9 +213,8 @@
         </div>
       </div>
     </section>
-    <br />
-    <br />
-    <section>
+
+    <section class="certificado-main pt-5">
       <div class="container-fluid">
         <div class="row">
           <div class="col-4 container-center">
@@ -221,7 +251,9 @@
           <div class="col-1"></div>
           <div class="col-6 container-right">
             <dl class="row">
-              <dt class="col-sm-3 text-no-justify">La certificación</dt>
+              <dt class="col-sm-3 text-no-justify titulos_main">
+                La certificación
+              </dt>
               <dd class="col-sm-9">
                 La certificación es el procedimiento mediante el cual un
                 organismo da una garantía por escrito, de que un producto, un
@@ -229,7 +261,9 @@
                 especificados.
               </dd>
 
-              <dt class="col-sm-3 text-no-justify">¿Para que nos sirven?</dt>
+              <dt class="col-sm-3 text-no-justify titulos_main">
+                ¿Para que nos sirven?
+              </dt>
               <dd class="col-sm-9">
                 <p>
                   Tener la certificación asegura que todo lo elemental encuentra
@@ -243,13 +277,15 @@
                 </p>
               </dd>
 
-              <dt class="col-sm-3 text-no-justify">Importancia</dt>
+              <dt class="col-sm-3 text-no-justify titulos_main">Importancia</dt>
               <dd class="col-sm-9">
                 Una certificación demuestra un compromiso con los estándares
                 superiores de la industria y el aprendizaje continuo.
               </dd>
 
-              <dt class="col-sm-3 text-truncate text-no-justify">Para..</dt>
+              <dt class="col-sm-3 text-truncate text-no-justify titulos_main">
+                Para..
+              </dt>
               <dd class="col-sm-9">
                 Demostrar que la Calidad es el único sinónimo de confianza.
               </dd>
@@ -258,67 +294,97 @@
         </div>
       </div>
     </section>
-    <br />
-    <br />
-    <footer class="footer-distributed">
-      <div class="footer-left">
-        <div class="col-6">
-          <img
-            src="/images/logo_constructora.png"
-            class="img-fluid"
-            alt="logo"
-          />
-        </div>
-        <p class="footer-links">
-          <a href="index.html" class="link-1">Inicio</a>
 
-          <a href="#">Blog</a>
+    <section class="pie pt-5">
+      <footer class="footer-distributed">
+        <div class="footer-left">
+          <div class="col-6">
+            <img
+              src="/images/logo_constructora.png"
+              class="img-fluid"
+              alt="logo"
+            />
+          </div>
+          <p class="footer-links">
+            <a href="index.html" class="link-1">Inicio</a>
 
-          <a href="#">Pricing</a>
+            <a href="contacto.html">Contacto</a>
 
-          <a href="#">About</a>
+            <a href="proyectos.html">Proyectos</a>
 
-          <a href="#">Faq</a>
+            <a href="politicas.html">Politicas</a>
 
-          <a href="#">Contact</a>
-        </p>
+            <a href="clientes.html">Clientes</a>
 
-        <p class="footer-company-name">G2 © 2023</p>
-      </div>
+            <a href="quienes.html">Nosotros</a>
+          </p>
 
-      <div class="footer-center">
-        <div>
-          <i class="fa fa-map-marker"></i>
-          <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+          <p class="footer-company-name">Constructora G2 © 2023</p>
         </div>
 
-        <div>
-          <i class="fa fa-phone"></i>
-          <p>+52.412.100.14.36</p>
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p>
+              <span>ZÄNÁ ENTORNO RESIDENCIAL, 38050</span> Celaya, Gto. México
+            </p>
+          </div>
+
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+52.412.100.14.36</p>
+          </div>
+
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p>
+              <a href="mailto:support@company.com"
+                >constructoraG2@hotmail.com</a
+              >
+            </p>
+          </div>
         </div>
 
-        <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="mailto:support@company.com">support@company.com</a></p>
+        <div class="footer-right">
+          <p class="footer-company-about">
+            <span>Descripcion breve</span>
+            En este empresa constructora, nos comprometemos a brindar proyectos
+            de calidad para el bienestar y seguridad de la sociedad.
+          </p>
+
+          <div class="footer-icons">
+            <a href="https://www.facebook.com/profile.php?id=100064050761744"
+              ><i class="facebook">
+                <img
+                  src="/images/facebook-logo.png"
+                  class="img-fluid"
+                  alt="logo" /></i
+            ></a>
+            <a href="https://twitter.com/home"
+              ><i class="twitter">
+                <img
+                  src="/images/twitter-logo.png"
+                  class="img-fluid"
+                  alt="logo" /></i
+            ></a>
+            <a href="https://www.linkedin.com/feed/"
+              ><i class="linkedin">
+                <img
+                  src="/images/linkedin-logo.png"
+                  class="img-fluid"
+                  alt="logo" /></i
+            ></a>
+            <a href="https://www.youtube.com/"
+              ><i class="youtube">
+                <img
+                  src="/images/youtube-logo.png"
+                  class="img-fluid"
+                  alt="logo" /></i
+            ></a>
+          </div>
         </div>
-      </div>
-
-      <div class="footer-right">
-        <p class="footer-company-about">
-          <span>Descripcion</span>
-          En este empresa constructora, nos comprometemos a brindar proyectos de
-          Calidad para el bienestar y seguridad de la sociedad.
-        </p>
-
-        <div class="footer-icons">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-github"></i></a>
-        </div>
-      </div>
-    </footer>
-
+      </footer>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
