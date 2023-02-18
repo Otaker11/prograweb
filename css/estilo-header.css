@@ -23,6 +23,28 @@
     align-items: center;
     padding-left: 4rem;
 }
+
+.image_index2{
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://img.freepik.com/foto-gratis/edificio-rascacielos-panoramica-noche-concepto-ciudad-nueva-york_53876-138192.jpg?w=1380&t=st=1676706024~exp=1676706624~hmac=3e2b1a12128be539a782006aea68948d994e41d2975e863a5b34e0c439bdf6b7");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+.image_index3{
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://img.freepik.com/foto-gratis/disparo-angulo-escala-grises-edificios-gran-altura-distrito-financiero-toronto-canada_181624-36013.jpg?w=1380&t=st=1676709075~exp=1676709675~hmac=ab2e266ad9d3f3f47bdaa583d75478e94a3d41e942781d89ba9dfdbb94a67efd");
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
 .image_proyectos{
     height: 480px;
     background-size: cover;
@@ -133,4 +155,14 @@
     width: 150%;
     height: 125%;
     background: white;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) 
+and (min-height: 376px) and (max-height: 915px) {
+
+}
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px)
+and (min-height: 915px) and (max-height: 1370px) {
+
 }
