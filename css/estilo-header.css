@@ -1,9 +1,15 @@
 
-.p_tricks, .h2_tricks{
+.p_tricks{
     position: relative;
     z-index: 1;
     margin: 20px 15%;
     color: black;
+}
+.h2_tricks{
+    position: relative;
+    z-index: 1;
+    margin: 20px 15%;
+    color: white;
 }
 .div_tricks{
     position: relative;
@@ -45,8 +51,18 @@
     align-items: center;
     padding-left: 1rem;
 }
+.image_index4{
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://img.freepik.com/foto-gratis/hermoso-resultado-blanco-negro-estacion-wtc-cortlandt-metro-nueva-york-tambien-conocido-como-oculus_181624-1651.jpg?w=1060&t=st=1676768472~exp=1676769072~hmac=dea65995ba5ba66e8c696be05d8ced526855e71537378ac12ccf010b0a9bbe47");
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
 .image_proyectos{
-    height: 480px;
+    height: 280px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -86,16 +102,6 @@
     padding-left: 4rem;
 }
 
-.image_salud{
-    height: 450px;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-image: url("https://images.alphacoders.com/115/115611.jpg");
-    display: flex;
-    align-items: center;
-    padding-left: 4rem;
-}
 .image_etica{
     height: 330px;
     background-size: cover;
@@ -134,6 +140,16 @@
     background-attachment: fixed;
     background-position: center;
     background-image: url("https://www.todofondos.net/wp-content/uploads/4k-new-york-wallpaper.jpg");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+.image_certificaciones{
+    height: 230px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1648337564744-f919c7c2fc02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     display: flex;
     align-items: center;
     padding-left: 4rem;

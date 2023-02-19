@@ -61,6 +61,10 @@ h1{
     font-weight: bold;
     padding-left: 3rem;
 }
+.negro-carrusel{
+  color: black;
+  font-weight: bold;
+}
 #Titulo-certificacion{
     font-size: 4rem;
 }
@@ -75,8 +79,29 @@ h1{
     background-color: #fb9325;
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+.naranja-title-border{
+  background-color: #fb9325;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 1rem;
 
 }
+.img-invert{
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+.img-order{
+height: 250px;
+width: 550px;
+object-fit: cover;
+}
+.img-order2{
+  height: 250px;
+  width: 550px;
+  padding-left: 10rem;
+  padding-top: 3rem;
+  }
 
 #imagen_banner_index{
     background-size: cover;
@@ -88,17 +113,17 @@ h1{
 }
 hr{
   border: 3px dashed orange;
-  width: 300px;
+  width: 600px;
   border-radius: 5px;
   background-color: #ec8619;
  margin-left: 8rem;
 }
 .hr-right{
   border: 3px dashed orange;
-  width: 300px;
+  width: 600px;
   border-radius: 5px;
   background-color: #ec8619;
- margin-left: 27rem;
+ margin-left: 8rem;
 }
 .hr-left{
   border: 3px dashed orange;
@@ -107,7 +132,12 @@ hr{
   background-color: #ec8619;
  margin-left: 4rem;
 }
-
+.negro-h5{
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 3rem;
+}
 
 #imagen_banner_certi{
   background-size: cover;
@@ -174,6 +204,12 @@ hr{
     justify-content: center;
     align-items: center;  
     text-align: justify;
+}
+.container-center2{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  text-align: center;
 }
 
 .container-center-left{
@@ -255,7 +291,9 @@ hr{
   /* Footer left */
   
   .footer-distributed .footer-left{
-    width: 40%;
+    width: 42%;
+    padding-bottom: 1%;
+    padding-top: -11%;
   }
   
 
