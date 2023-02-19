@@ -198,7 +198,9 @@ hr{
 .row-contact{
     width: 100%;
 }
-
+.center-text{
+ padding-bottom: 3rem;
+}
 .container-center{
     display: flex;
     justify-content: center;
