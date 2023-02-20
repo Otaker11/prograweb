@@ -11,6 +11,13 @@ body{
 #ejemplo{
     background-color: black;
 }
+
+.ul_lista{
+  list-style-type: square;
+  list-style-image: url('https://iconos8.es/icon/PM7Wt9oRQh8G/bandcamp-is-an-american-online-music-company');
+  list-style-position: inside;  
+  
+}
 .container-search{
   width: 30px;
   height: 100%;
@@ -85,8 +92,13 @@ h1{
   color: white;
   font-family: 'Roboto', sans-serif;
   border-radius: 1rem;
-
 }
+.naranja-title{
+  color:#fb9325 ;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
 .img-invert{
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
@@ -125,6 +137,14 @@ hr{
   background-color: #ec8619;
  margin-left: 8rem;
 }
+.hr-right-servi{
+  border: 3px dashed orange;
+  width: 470px;
+  border-radius: 5px;
+  background-color: #ec8619;
+ margin-left: 5rem;
+}
+
 .hr-left{
   border: 3px dashed orange;
   width: 300px;
@@ -174,6 +194,14 @@ hr{
 .text_main{
     color: black;
     text-align: justify;
+}
+.text-bold-naranja{
+  color:orange;
+  text-align: justify;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  margin: 20px 15%;
 }
 
 .title_banner{
@@ -279,7 +307,10 @@ hr{
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
-    padding: 10rem 4rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 5rem;
     height: auto;
   }
   
@@ -432,6 +463,10 @@ hr{
   
     .footer-distributed{
       font: bold 14px sans-serif;
+    }
+
+    .footer-icons{
+       padding-left: 14rem;
     }
   
     .footer-distributed .footer-left,
