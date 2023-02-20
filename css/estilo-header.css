@@ -124,6 +124,26 @@
     align-items: center;
     padding-left: 4rem;
 }
+.image_natural{
+    height: 430px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://unigoias.com.br/wp-content/uploads/Gestao-Ambiental-1.jpg");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+.image_via{
+    height: 430px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("https://realestatemarket.com.mx/images/2022/04-abril/3004/Recomendaciones-seguridadvial-para-ninios.png");
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
 .image_quienes{
     height: 450px;
     background-size: cover;
